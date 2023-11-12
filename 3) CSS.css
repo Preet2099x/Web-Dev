@@ -1,0 +1,84 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    /* *targets everything */
+    /* resets the whole page */
+/* } */ 
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font: bold 20px Arial,Helvetica, sans-serif; /*same as above */
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a{
+     text-decoration: none; /*removes blue underline or any else from links */
+     color: #333;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+a:visited{
+    color: aqua;
+}
+
+.container{
+    width: 80%; /* use % to make site responsive */
+    margin: auto; /*same margin on all sides almost centres it */
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff; 
+    border: 5px red solid;
+    padding: 20px;
+    margin-top: 20px;
+}
+     
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    word-spacing: 1em;
+
+}
+
+.box-2{
+    border:3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;  /*rounded edges */
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    list-style: lower-roman;
+    list-style: none;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+}
